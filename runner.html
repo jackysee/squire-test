@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Spec Runner</title>
+	<link rel="stylesheet" href="lib/jasmine-1.2.0/jasmine.css">
+	<script src="lib/jasmine-1.2.0/jasmine.js"></script>
+	<script src="lib/jasmine-1.2.0/jasmine-html.js"></script>
+	<script src="lib/jquery-1.7.2.js"></script>
+	<script src="lib/jasmine-helper.js"></script>
+	<script src="lib/jasmine.async.js"></script>
+	<script src="lib/require-2.1.4.js"></script>
+	<script src="lib/require-config.js"></script>
+	<script>
+	    require([
+		'spec/component-a_spec.js'
+	    ], function(){
+		jasmineEnv.execute();
+	    });
+	</script>
+
+</head>
+<body></body>
+</html>
